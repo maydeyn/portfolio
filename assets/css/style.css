@@ -34,8 +34,9 @@ h1,
 h2,
 h3 {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  color: #4aaaa5;
+  font-weight: 100;
+  color: #949494ab;
+  letter-spacing: 10px;
 }
 
 h1 {
@@ -107,7 +108,7 @@ footer {
   color: #cccccc;
   text-align: center;
   background: #666666;
-  border-top: 8px solid #4aaaa5;
+  border-top: 8px solid #749b99;
   height: 50px;
 }
 
@@ -140,8 +141,8 @@ h3, h2 {
 .work {
   position: relative;
   float: left;
-  width: 274px;
-  margin: 20px 0 25px;
+  width: 360px;
+  margin: 20px 20px 20px;
   overflow: auto;
 }
 
@@ -159,13 +160,15 @@ h3, h2 {
   position: absolute;
   bottom: 20px;
   width: 100%;
-  padding: 15px;
+  padding: 10px;
   margin-bottom: 0;
-  font-weight: 300;
+  font-weight: 100;
   line-height: 30px;
   color: #ffffff;
   text-align: center;
-  background: #727473a6;
+  background: #36363669;
+  font-size: 15px;
+  letter-spacing: 5px;
   border-bottom: 0;
 }
 
@@ -213,6 +216,29 @@ input[type=submit] {
   font-size: 18px;
   color: #ffffff;
   cursor: pointer;
-  background: #4aaaa5;
+  background: #7b9796;
   border: 0 none;
+}
+
+@media screen and (max-width: 980px) {
+  .main-section {
+    width: 100%;
+  }
+
+
+}
+@media screen and (max-width: 768px) {
+  .main-section {
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 640px) {
+  header {
+    position:static;
+  }
+  .main-section {
+    width: 100%;
+  }
+
 }
