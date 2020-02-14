@@ -208,6 +208,7 @@ input[type="submit"] {
   border: 0 none;
 }
 
+// 
 @media screen and (max-width: 980px) {
   header {
     width: 100%;
